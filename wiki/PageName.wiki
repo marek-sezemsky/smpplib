@@ -5,7 +5,7 @@
 SMPPLIB for Python.
 
 
-= Details =
+= Example usage =
 
 #
 # SMPP Library usage example
