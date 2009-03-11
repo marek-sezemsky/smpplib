@@ -21,7 +21,7 @@ if __name__ == '__main__':
     client.bind_transmitter(system_id="SYSID", password='password', system_type='TEST')
     client.send_message(source_addr_ton=0,
                         source_addr_npi = 5,
-                        source_addr='MTN',
+                        source_addr='Me',
                         dest_addr_ton=smpplib.command.SMPP_TON_UNK,
                         dest_addr_npi = smpplib.command.SMPP_NPI_ISDN,
                         destination_addr='2783111111',
@@ -33,7 +33,7 @@ if __name__ == '__main__':
                         #message_payload="part1")
     client.send_message(source_addr_ton=0,
                         source_addr_npi = 5,
-                        source_addr='MTN',
+                        source_addr='Me',
                         dest_addr_ton=smpplib.command.SMPP_TON_UNK,
                         dest_addr_npi = smpplib.command.SMPP_NPI_ISDN,
                         destination_addr='2783111111',
