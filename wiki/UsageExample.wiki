@@ -16,7 +16,7 @@ if __name__ == '__main__':
     client = smpplib.client.Client("10.10.15.38", 5100)
     client.connect()
     client.bind_transmitter(system_id="SYSPLAN", password='passw', system_type='TEST')
-    msg = "This is a test message..........................................................................................................................................Part2"
+    msg = "This is a test message"
     length = len(msg)
     splitat = 160
     parts = length/splitat +1
